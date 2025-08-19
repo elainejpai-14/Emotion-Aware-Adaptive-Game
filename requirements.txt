@@ -1,0 +1,13 @@
+torch
+torchvision
+torchaudio
+opencv-python
+pygame
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+pyyaml
+einops
+kaggle

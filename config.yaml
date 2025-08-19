@@ -1,0 +1,31 @@
+# Training configuration (FOLDER mode)
+seed: 42
+num_classes: 7
+image_size: 224
+batch_size: 128
+num_workers: 0
+max_epochs: 25
+learning_rate: 0.001
+weight_decay: 0.0005
+step_lr_gamma: 0.1
+step_lr_milestones: [12, 20]
+label_smoothing: 0.05
+
+# ---- Data mode ----
+data_mode: folder            # 'folder' or 'csv'
+train_dir: data/train        # used when data_mode = folder
+test_dir:  data/test         # used when data_mode = folder
+
+# If you ever switch back to CSV mode:
+csv_path: data/fer2013/fer2013.csv
+train_split: Training
+val_split: PublicTest
+test_split: PrivateTest
+
+# Output
+model_dir: models
+run_dir: runs
+
+# Will be filled automatically in folder mode based on ImageFolder class_to_idx
+class_names: []
+
