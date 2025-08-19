@@ -2,7 +2,7 @@
 An interactive facial emotion recognition project that adapts gameplay based on real-time user emotions. It can detect 7 emotions including Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise
 Built with **PyTorch**, **OpenCV**, and **Pygame**, trained on the **FER2013 dataset** using a **ResNet18** deep learning model.
 
-## Setup (macOS)
+## Setup
 ```bash
 conda create -n emo-game python=3.11 -y
 conda activate emo-game
