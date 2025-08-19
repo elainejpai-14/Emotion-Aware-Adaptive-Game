@@ -30,3 +30,14 @@ Training on FER2013 for 25 epochs with ResNet18:
 - Best train accuracy: **~99.82%**
 - Best validation accuracy: **67.3%**
 - Test accuracy: **67.64%**
+
+Per-class metrics:
+| Emotion  | Precision | Recall | F1-score |
+| -------- | --------- | ------ | -------- |
+| Angry    | 0.59      | 0.61   | 0.60     |
+| Disgust  | 0.77      | 0.50   | 0.60     |
+| Fear     | 0.54      | 0.49   | 0.51     |
+| Happy    | 0.88      | 0.87   | 0.87     |
+| Neutral  | 0.61      | 0.65   | 0.63     |
+| Sad      | 0.54      | 0.56   | 0.55     |
+| Surprise | 0.81      | 0.81   | 0.81     |
