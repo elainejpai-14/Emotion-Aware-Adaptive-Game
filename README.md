@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 
 ## Dataset
 
-Download FER2013 via Kaggle and place it under data/ as described in the docs.
+Download FER2013 via Kaggle and place it under data/ as described in config.yaml.
 
 ## Train
 ```bash
